@@ -1,4 +1,4 @@
-package org.knit.lab2;
+package org.knit.lab2.task3;
 
 public class Calculator {
     double first;

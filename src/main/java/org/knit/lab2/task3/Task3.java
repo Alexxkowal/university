@@ -1,4 +1,4 @@
-package org.knit.lab2;
+package org.knit.lab2.task3;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -12,8 +12,7 @@ public class Task3 {
         while (!Objects.equals(sfirst, "exit")) {
             double first = Double.parseDouble(sfirst);
             System.out.print("Введите второе число: ");
-            double second = scanner.nextDouble();
-            scanner.nextLine();
+            double second = Double.parseDouble(scanner.nextLine());
             System.out.print("Введите операцию: ");
             String operation = scanner.nextLine();
             Calculator calculator = new Calculator(first, second);
