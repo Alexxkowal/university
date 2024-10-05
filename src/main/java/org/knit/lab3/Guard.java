@@ -1,16 +1,9 @@
 package org.knit.lab3;
 
 public class Guard extends Warrior {
-    public Guard(String name) {
-        super(name);
-        setMaxHealth(130);
-        setCurrentHealth(130);
-        setAlive(true);
-        setArmor(10);
-        setDamage(50);
-        setName(name);
-        setY_position(0);
-        setX_position(0);
+    public Guard(String name, Race race) {
+        super(name, race);
+        this.armor = 15;
     }
 
     @Override

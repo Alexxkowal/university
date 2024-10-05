@@ -2,57 +2,35 @@ package org.knit.lab3;
 
 public class Priest extends  Player implements Healer{
     int healpower;
-    public Priest(String name){
-        setMaxHealth(100);
-        setCurrentHealth(100);
-        setAlive(true);
-        setArmor(5);
-        setDamage(50);
-        setName(name);
-        setY_position(0);
-        setX_position(0);
+
+    public Priest(String name, Race race) {
+        super(name, 150, 150, 0, 0, 0, 5, true, race, 1, 2);
         this.healpower = 20;
     }
+
+
     public void heal(Player player){
-        int heal = getHealpower();
-        player.increaseHealth(heal);
+        player.increaseHealth(healpower + race.getHealBonus());
+    }
+    @Override
+    protected void increaseHealth(int healPower) {
+        currentHealth += healPower;
+        if (currentHealth >= maxHealth){
+            currentHealth = maxHealth;
+        }
     }
 
     @Override
     protected void decreaseHealth(int damagePower) {
-        int currH = getCurrentHealth();
-        currH = currH - damagePower + getArmor();
-        if (currH <= 0){
-            setAlive(false);
-            setCurrentHealth(0);
+        currentHealth = currentHealth + armor + race.getDefenceBonus() - damagePower;
+        if (currentHealth <= 0){
+            currentHealth = 0;
+            isAlive = false;
+            System.out.println("Персонаж " + name + " погиб");
         }
-        else{
-            setCurrentHealth(currH);
-        }
-
     }
-
-    @Override
     public void move(int x, int y) {
-        setX_position(x);
-        setY_position(y);
-    }
-
-    @Override
-    protected void increaseHealth(int healPower) {
-        int currH = getCurrentHealth();
-        currH += healPower;
-        if (currH>= getMaxHealth()){
-            setCurrentHealth(getMaxHealth());
-        }
-        else{
-            setCurrentHealth(currH);
-        }
-    }
-    protected void setHealPower(int heal){
-        this.healpower = heal;
-    }
-    protected int getHealpower(){
-        return healpower;
+        x_position += x;
+        y_position += y;
     }
 }

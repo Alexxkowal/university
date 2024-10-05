@@ -1,16 +1,10 @@
 package org.knit.lab3;
 
 public class AttackerPriest extends  Priest implements Damager{
-    public AttackerPriest(String name) {
-        super(name);
-        setCurrentHealth(100);
-        setAlive(true);
-        setMaxHealth(100);
-        setArmor(5);
-        setDamage(50);
-        setHealPower(15);
-        setX_position(0);
-        setY_position(0);
+    public AttackerPriest(String name, Race race) {
+        super(name, race);
+        this.healpower = 50;
+        this.damage = 25;
     }
 
     @Override
@@ -30,7 +24,6 @@ public class AttackerPriest extends  Priest implements Damager{
 
     @Override
     public void attack(Player player) {
-        int damage = getDamage();
         player.decreaseHealth(damage);
     }
 }
