@@ -1,4 +1,13 @@
 package org.knit.lab2.task5;
 
-public interface FileSystemComponent {
+public abstract class FileSystemComponent {
+    String name;
+    public FileSystemComponent(String name){
+        this.name = name;
+    }
+    protected abstract String getName();
+
+    protected  abstract int getSize();
+
+    protected abstract void display(String s);
 }

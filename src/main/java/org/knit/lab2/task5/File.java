@@ -6,6 +6,7 @@ public class File extends FileSystemComponent {
         super(name);
         this.size = size;
     }
+    @Override
     public String getName(){
         return name;
     }
