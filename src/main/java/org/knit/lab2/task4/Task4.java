@@ -18,8 +18,8 @@ public class Task4 {
         System.out.println(formatecylinder);
         Container container = new Container(500);
         container.add(cube);
-        container.add(cube);
-        container.add(cube);
+        container.add(sphere);
+        container.add(cylinder);
         container.add(cube);
         container.add(cube);
     }
