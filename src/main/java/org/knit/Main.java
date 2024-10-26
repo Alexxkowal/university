@@ -5,6 +5,7 @@ import org.knit.lab2.task4.Task4;
 import org.knit.lab2.task5.Task5;
 import org.knit.lab3.*;
 import org.knit.lab4.Task7;
+import org.knit.lab5.Task8;
 
 import java.io.FileNotFoundException;
 
@@ -26,6 +27,8 @@ public class Main {
 //        Task5.execute();
         Task7 task7 = new Task7();
         task7.execute();
+        Task8 task8 = new Task8();
+        task8.execute();
 
     }
 }
