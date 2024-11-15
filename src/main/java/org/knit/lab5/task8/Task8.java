@@ -1,4 +1,6 @@
-package org.knit.lab5;
+package org.knit.lab5.task8;
+
+import org.knit.lab5.task9.Task9;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.knit.lab5;
+package org.knit.lab5.task8;
 
 import java.util.Comparator;
 
