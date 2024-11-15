@@ -1,6 +1,4 @@
-package org.knit.lab5;
-
-import java.util.Objects;
+package org.knit.lab5.task8;
 
 public class ShopItem {
     private final String name;
