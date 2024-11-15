@@ -2,6 +2,7 @@ package org.knit;
 
 import org.knit.lab6.task10.Task10;
 import org.knit.lab6.task11.Task11;
+import org.knit.lab7.Task12;
 
 import java.io.FileNotFoundException;
 
@@ -31,7 +32,8 @@ public class Main {
 //        task10.execute();
 //        Task11 task11 = new Task11();
 //        task11.execute();
-        System.out.println(1 + 2 + "3");
+        Task12 task12 = new Task12();
+        task12.execute();
 
 
 
