@@ -4,6 +4,8 @@ import org.knit.lab10.task18.Task18;
 import org.knit.lab10.task19.Task19;
 import org.knit.lab10.task20.Task20;
 import org.knit.lab10.task21.Task21;
+import org.knit.lab10.task22.Task22;
+import org.knit.lab10.task23.Task23;
 import org.knit.lab9.task17.Task17;
 
 import java.io.FileNotFoundException;
@@ -49,11 +51,15 @@ public class Main {
 //        Task18 task18 = new Task18();
 //        task18.execute();
 //        Task19 task19 = new Task19();
-//        task19.execute();
-        Task20 task20 = new Task20();
-        task20.execute();
-        Task21 task21 = new Task21();
-        task21.exevute();
+////        task19.execute();
+//        Task20 task20 = new Task20();
+//        task20.execute();
+//        Task21 task21 = new Task21();
+//        task21.exevute();
+//        Task22 task22 = new Task22();
+//        task22.execute();
+        Task23 task23 = new Task23();
+        task23.execute();
 
 
     }
