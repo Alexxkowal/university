@@ -6,6 +6,9 @@ public class Task22 {
         dictionary.put("Alice", 25);
         dictionary.put("Bob", 30);
         System.out.println(dictionary.getValue("Alice"));
-        System.out.println(dictionary.getValue("Alice"));
+        System.out.println(dictionary.getValue("Bob"));
+        System.out.println(dictionary.keys());
+        dictionary.remove("Bob");
+        System.out.println(dictionary.keys());
     }
 }

@@ -1,12 +1,8 @@
 package org.knit;
 
-import org.knit.lab10.task18.Task18;
-import org.knit.lab10.task19.Task19;
-import org.knit.lab10.task20.Task20;
-import org.knit.lab10.task21.Task21;
 import org.knit.lab10.task22.Task22;
-import org.knit.lab10.task23.Task23;
-import org.knit.lab9.task17.Task17;
+import org.knit.lab11.task24.Task24;
+import org.knit.lab11.task25.FileApp;
 
 import java.io.FileNotFoundException;
 
@@ -56,10 +52,16 @@ public class Main {
 //        task20.execute();
 //        Task21 task21 = new Task21();
 //        task21.exevute();
-//        Task22 task22 = new Task22();
-//        task22.execute();
-        Task23 task23 = new Task23();
-        task23.execute();
+        Task22 task22 = new Task22();
+        task22.execute();
+//        Task23 task23 = new Task23();
+//        task23.execute();
+//        TestDatabaseConnection testDatabaseConnection = new TestDatabaseConnection();
+//        testDatabaseConnection.execute();
+//        Task24 task24 = new Task24();
+////        task24.execute();
+//FileApp fileApp = new FileApp();
+//fileApp.execute();
 
 
     }
