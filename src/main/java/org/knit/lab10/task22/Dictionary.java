@@ -1,33 +1,67 @@
 package org.knit.lab10.task22;
 
-import java.util.HashMap;
-import java.util.Map;
+import org.knit.lab10.task18.Pair;
 
-public class Dictionary <K, V> {
-    private Map<K, V> dictionary;
-    public Dictionary(){
-        dictionary = new HashMap<>() ;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Dictionary<K, V> {
+    private List<Pair<K, V>> dictionary;
+
+    // Конструктор
+    public Dictionary() {
+        dictionary = new ArrayList<>();
     }
-    public V getValue(K key){
-        return dictionary.get(key);
+
+    public V getValue(K key) {
+        for (Pair<K, V> pair : dictionary) {
+            if (pair.getKey().equals(key)) {
+                return pair.getValue();
+            }
+        }
+        return null;
     }
-    public void put(K key, V value){
-        dictionary.put(key,value);
+
+    public void put(K key, V value) {
+        dictionary.add(new Pair<>(key, value));
     }
+
     public boolean containsKey(K key) {
-        return dictionary.containsKey(key);
+        for (Pair<K, V> pair : dictionary) {
+            if (pair.getKey().equals(key)) {
+                return true;
+            }
+        }
+        return false;
     }
+
     public boolean containsValue(V value) {
-        return dictionary.containsValue(value);
+        for (Pair<K, V> pair : dictionary) {
+            if (pair.getValue().equals(value)) {
+                return true;
+            }
+        }
+        return false;
     }
+
     public Iterable<K> keys() {
-        return dictionary.keySet();
+        List<K> keys = new ArrayList<>();
+        for (Pair<K, V> pair : dictionary) {
+            keys.add(pair.getKey());
+        }
+        return keys;
     }
+
+    // Получить все значения
     public Iterable<V> values() {
-        return dictionary.values();
+        List<V> values = new ArrayList<>();
+        for (Pair<K, V> pair : dictionary) {
+            values.add(pair.getValue());
+        }
+        return values;
     }
 
     public void remove(K key) {
-        dictionary.remove(key);
+        dictionary.removeIf(pair -> pair.getKey().equals(key));
     }
 }
