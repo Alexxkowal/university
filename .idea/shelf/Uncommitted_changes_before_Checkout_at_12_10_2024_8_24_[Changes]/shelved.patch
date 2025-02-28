@@ -1,0 +1,133 @@
+Index: src/main/java/org/knit/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.knit;\r\n\r\nimport org.knit.lab2.task3.Task3;\r\nimport org.knit.lab2.task4.Task4;\r\nimport org.knit.lab3.*;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n//        Task1 task1 = new Task1();\r\n//        task1.execute();\r\n//\r\n//        Task2 task2 = new Task2();\r\n//        task2.execute();\r\n\r\n//        Task3 task3 = new Task3();\r\n//        task3.execute();\r\n//        Task4 task4 = new Task4();\r\n//        task4.execute();\r\n          Task6 task6 = new Task6();\r\n          task6.execute();\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/knit/Main.java b/src/main/java/org/knit/Main.java
+--- a/src/main/java/org/knit/Main.java	
++++ b/src/main/java/org/knit/Main.java	
+@@ -2,6 +2,7 @@
+ 
+ import org.knit.lab2.task3.Task3;
+ import org.knit.lab2.task4.Task4;
++import org.knit.lab2.task5.Task5;
+ import org.knit.lab3.*;
+ 
+ public class Main {
+@@ -16,8 +17,10 @@
+ //        task3.execute();
+ //        Task4 task4 = new Task4();
+ //        task4.execute();
+-          Task6 task6 = new Task6();
+-          task6.execute();
++//          Task6 task6 = new Task6();
++//          task6.execute();
++        Task5 task5 = new Task5();
++        task5.execute();
+ 
+     }
+ }
+Index: src/main/java/org/knit/lab3/Mage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.knit.lab3;\r\n\r\npublic class Mage extends Player implements Damager {\r\n    private final int spellDamage;\r\n\r\n    public Mage(String name, Race race) {\r\n        super(name, 150, 150, 0, 0, 10, 2, true, race, 1, 2);\r\n        this.spellDamage = 50;\r\n    }\r\n\r\n    public void attack(Player player){\r\n        player.decreaseHealth(damage + race.getAtackBonus());\r\n    }\r\n\r\n    @Override\r\n    protected void increaseHealth(int healPower) {\r\n        currentHealth += healPower;\r\n        if (currentHealth >= maxHealth){\r\n            currentHealth = maxHealth;\r\n        }\r\n    }\r\n\r\n    @Override\r\n    protected void decreaseHealth(int damagePower) {\r\n        currentHealth = currentHealth + armor + race.getDefenceBonus() - damagePower;\r\n        if (currentHealth <= 0){\r\n            currentHealth = 0;\r\n            isAlive = false;\r\n            System.out.println(\"Персонаж \" + name + \" погиб\");\r\n        }\r\n    }\r\n    public void move(int x, int y) {\r\n        x_position += x;\r\n        y_position += y;\r\n    }\r\n    public void spell(Player player){\r\n        player.decreaseHealth(spellDamage + race.getSpellBonus());\r\n        System.out.println(\"Применено заклинание\");\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/org/knit/lab3/Mage.java b/src/main/java/org/knit/lab3/Mage.java
+--- a/src/main/java/org/knit/lab3/Mage.java	
++++ b/src/main/java/org/knit/lab3/Mage.java	
+@@ -30,8 +30,13 @@
+         }
+     }
+     public void move(int x, int y) {
+-        x_position += x;
+-        y_position += y;
++        if (x > maxMoveRange || y > maxMoveRange) {
++            System.out.println("Слишком далеко!");
++        } else {
++            x_position += x;
++            y_position += y;
++            System.out.println("Текущая позиция "+ x_position + " " + y_position);
++        }
+     }
+     public void spell(Player player){
+         player.decreaseHealth(spellDamage + race.getSpellBonus());
+Index: src/main/java/org/knit/lab2/task5/FileSystemComponent.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.knit.lab2.task5;\r\n\r\npublic interface FileSystemComponent {\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/org/knit/lab2/task5/FileSystemComponent.java b/src/main/java/org/knit/lab2/task5/FileSystemComponent.java
+--- a/src/main/java/org/knit/lab2/task5/FileSystemComponent.java	
++++ b/src/main/java/org/knit/lab2/task5/FileSystemComponent.java	
+@@ -1,4 +1,13 @@
+ package org.knit.lab2.task5;
+ 
+-public interface FileSystemComponent {
++public abstract class FileSystemComponent {
++    String name;
++    public FileSystemComponent(String name){
++        this.name = name;
++    }
++    protected abstract String getName();
++
++    protected  abstract int getSize();
++
++    protected abstract void display(String s);
+ }
+Index: src/main/java/org/knit/lab3/Priest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.knit.lab3;\r\n\r\npublic class Priest extends  Player implements Healer{\r\n    int healpower;\r\n\r\n    public Priest(String name, Race race) {\r\n        super(name, 150, 150, 0, 0, 0, 5, true, race, 1, 2);\r\n        this.healpower = 20;\r\n    }\r\n\r\n\r\n    public void heal(Player player){\r\n        player.increaseHealth(healpower + race.getHealBonus());\r\n    }\r\n    @Override\r\n    protected void increaseHealth(int healPower) {\r\n        currentHealth += healPower;\r\n        if (currentHealth >= maxHealth){\r\n            currentHealth = maxHealth;\r\n        }\r\n    }\r\n\r\n    @Override\r\n    protected void decreaseHealth(int damagePower) {\r\n        currentHealth = currentHealth + armor + race.getDefenceBonus() - damagePower;\r\n        if (currentHealth <= 0){\r\n            currentHealth = 0;\r\n            isAlive = false;\r\n            System.out.println(\"Персонаж \" + name + \" погиб\");\r\n        }\r\n    }\r\n    public void move(int x, int y) {\r\n        x_position += x;\r\n        y_position += y;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/org/knit/lab3/Priest.java b/src/main/java/org/knit/lab3/Priest.java
+--- a/src/main/java/org/knit/lab3/Priest.java	
++++ b/src/main/java/org/knit/lab3/Priest.java	
+@@ -30,7 +30,12 @@
+         }
+     }
+     public void move(int x, int y) {
+-        x_position += x;
+-        y_position += y;
++        if (x > maxMoveRange || y > maxMoveRange) {
++            System.out.println("Слишком далеко!");
++        } else {
++            x_position += x;
++            y_position += y;
++            System.out.println("Текущая позиция "+ x_position + " " + y_position);
++        }
+     }
+ }
+Index: src/main/java/org/knit/lab2/task5/Task5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.knit.lab2.task5;\r\n\r\npublic class Task5 {\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/org/knit/lab2/task5/Task5.java b/src/main/java/org/knit/lab2/task5/Task5.java
+--- a/src/main/java/org/knit/lab2/task5/Task5.java	
++++ b/src/main/java/org/knit/lab2/task5/Task5.java	
+@@ -1,4 +1,23 @@
+ package org.knit.lab2.task5;
+ 
+ public class Task5 {
++    public void execute() {
++        // Создаем экземпляр файла
++        FileSystemComponent file = new File("file.txt", 50);
++
++        // Вызываем метод display для отображения информации о файле
++        file.display(""); // Передаем пустую строку для отступа
++
++        // Создание папки и добавление файла в неё
++        Folder folder = new Folder("MyFolder");
++        folder.add(file);
++
++        // Вызываем метод display для отображения информации о папке
++        folder.display(""); // Отображаем структуру папки
++        Folder folder2 = new Folder("Folder2");
++        folder.add(folder2);
++        File file1 = new File("file1", 300);
++        folder2.add(file1);
++        folder.display(" ");
++    }
+ }
