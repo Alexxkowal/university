@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c568402-8de8-459e-a072-c51c19719b5f" name="Changes" comment="main_pull_req">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/RailwayCrossing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Task2_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Task2_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/Task2_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/TrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_3/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/knit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/knit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/knit/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/knit/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alexxkowal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Alexxkowal/university.git&quot;,
+    &quot;accountId&quot;: &quot;be6882a8-6934-4945-bc93-39e686174c61&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mLUPdijTp3TnFljzi3RjnNeWF4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DictionaryStatistics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Keyboard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Threads&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexx/IdeaProjects/knit241_template-master&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexx\IdeaProjects\knit241_template-master\data" />
+      <recent name="C:\Users\alexx\IdeaProjects\knit241_template-master\src\main\java\org\knit\data" />
+      <recent name="C:\Users\alexx\IdeaProjects\knit241_template-master\src\main\java\org\knit\lab4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.knit.lab11.task25" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c568402-8de8-459e-a072-c51c19719b5f" name="Changes" comment="" />
+      <created>1726855326595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726855326595</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Task1">
+      <option name="closed" value="true" />
+      <created>1726892628544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726892628544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task1">
+      <option name="closed" value="true" />
+      <created>1726893072397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726893072397</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task3">
+      <option name="closed" value="true" />
+      <created>1726897646393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726897646393</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task3">
+      <option name="closed" value="true" />
+      <created>1726897708021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726897708021</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task3">
+      <option name="closed" value="true" />
+      <created>1727431579585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727431579585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task6">
+      <option name="closed" value="true" />
+      <created>1727708818830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708818830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task6">
+      <option name="closed" value="true" />
+      <created>1728102439106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728102439106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task5">
+      <option name="closed" value="true" />
+      <created>1728708884535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728708884535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task5">
+      <option name="closed" value="true" />
+      <created>1728709186520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728709186520</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task7">
+      <option name="closed" value="true" />
+      <created>1729850564264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729850564264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task7">
+      <option name="closed" value="true" />
+      <created>1729916983476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729916983476</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task11">
+      <option name="closed" value="true" />
+      <created>1731682613917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731682613917</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task12">
+      <option name="closed" value="true" />
+      <created>1731687835096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731687835096</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task12">
+      <option name="closed" value="true" />
+      <created>1732335850669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732335850669</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Task12">
+      <option name="closed" value="true" />
+      <created>1732340632852</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732340632852</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task12">
+      <option name="closed" value="true" />
+      <created>1734166575700</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734166575700</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lab10">
+      <option name="closed" value="true" />
+      <created>1734705870959</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734705870959</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lab10">
+      <option name="closed" value="true" />
+      <created>1734757443892</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734757443892</updated>
+    </task>
+    <task id="LOCAL-00019" summary="second_semestr">
+      <option name="closed" value="true" />
+      <created>1740760682215</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740760682215</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge pull request #7 from Alexxkowal/tasks/Task8&#10;&#10;Task12">
+      <option name="closed" value="true" />
+      <created>1740761060388</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740761060388</updated>
+    </task>
+    <task id="LOCAL-00021" summary="main_pull_req">
+      <option name="closed" value="true" />
+      <created>1740761116830</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740761116830</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tasks/Task13" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task1" />
+    <MESSAGE value="Task3" />
+    <MESSAGE value="Task6" />
+    <MESSAGE value="Task5" />
+    <MESSAGE value="Task7" />
+    <MESSAGE value="Task11" />
+    <MESSAGE value="Task12" />
+    <MESSAGE value="lab10" />
+    <MESSAGE value="second_semestr" />
+    <MESSAGE value="Merge pull request #7 from Alexxkowal/tasks/Task8&#10;&#10;Task12" />
+    <MESSAGE value="main_pull_req" />
+    <option name="LAST_COMMIT_MESSAGE" value="main_pull_req" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab2/task3/Task3.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab2/task3/Task3.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab2/task4/Container.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab2/task4/Task4.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab3/Warrior.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/first_semestr/lab3/Player.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_4/Task2_4.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
