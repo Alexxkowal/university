@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c568402-8de8-459e-a072-c51c19719b5f" name="Changes" comment="main_pull_req">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/RailwayCrossing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Task2_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_6/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Task2_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_7/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/Task2_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_2/task2_8/TrafficLightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_3/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task1/EmailNotifer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task1/MobileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task1/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task1/StockObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task2/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task2/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task2/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task3/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task3/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/knit/second_semestr/lab2_4/task3/TV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/knit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/knit/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/knit/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/knit/Main.class" afterDir="false" />
@@ -32,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +71,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Task7.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Threads&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;labor2__4&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/alexx/IdeaProjects/knit241_template-master&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
